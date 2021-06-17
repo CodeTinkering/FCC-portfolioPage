@@ -6,3 +6,17 @@
 html {
   font-size: 62.5%;
 }
+#navbar {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  border: solid black 1px;
+  display: flex;
+}
+#nav-button ul {
+  list-style: none;
+  display: flex;
+}
+#nav-button a {
+  text-decoration: none;
+}
