@@ -6,6 +6,7 @@
 html {
   font-size: 62.5%;
 }
+/* font-family: 'Open Sans', sans-serif;*/
 #navbar {
   width: 90%;
   margin: auto;
@@ -13,10 +14,22 @@ html {
   border: solid black 1px;
   display: flex;
 }
+#nav-button {
+  width: 100%;
+  margin: auto;
+}
 #nav-button ul {
   list-style: none;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #nav-button a {
   text-decoration: none;
+  font-size: 2.4rem;
+  font-family: 'Open Sans', sans serif;
+  padding: 15px;
+  border: solid black 1px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px 0 rgb(100, 84, 84);
 }
