@@ -29,7 +29,6 @@ html {
   font-size: 2.4rem;
   font-family: 'Open Sans', sans serif;
   padding: 15px;
-  border: solid black 1px;
   border-radius: 20px;
   box-shadow: 5px 5px 3px 0 rgb(100, 84, 84);
 }
