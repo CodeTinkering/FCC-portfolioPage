@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Fcc Portofolio page. last project before getting the FCC responsive web design certification."
+    />
+    <meta name="Robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/icon/FullColor_IconOnly_1024x1024_72dpi.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FCC Portfolio page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="Description"
-    content="Fcc Portofolio page. last project before getting the FCC responsive web design certification." />
-  <meta name="Robots" content="index, follow" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="icon" href="/icon/FullColor_IconOnly_1024x1024_72dpi.jpg" />
-  <link rel="stylesheet" href="style.css" />
-  <title>FCC Portfolio page</title>
-</head>
-
-<body>
-  <nav id="navbar">
-    <div id="logo">
-      <img src="/icon/FullColor_IconOnly_1024x1024_72dpi.jpg" alt="logo" width="75px">
-    </div>
-    <div id="nav-button">
-      <ul>
-        <li><a href="#welcome-section">Welcome</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#profile">Profile</a></li>
-      </ul>
-    </div>
-  </nav>
-  <section id="welcome-section">
-    <h1>Welcome to my portfolio</h1>
-  </section>
-  <section id="projects">
-    <img src="" alt="" class="project-tile" /><img src="" alt="" class="project-tile" /><img src="" alt=""
-      class="project-tile" /><img src="" alt="" class="project-tile" />
-  </section>
-  <section id="profile"></section>
-  <footer>
-    <h3>CodeTinkering&copy 2021</h3>
-  </footer>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
-
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img
+          src="/icon/FullColor_IconOnly_1024x1024_72dpi.jpg"
+          alt="logo"
+          width="75px"
+        />
+      </div>
+      <div id="nav-button">
+        <ul>
+          <li><a href="#welcome-section">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#profile">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="welcome-section">
+      <h1>Welcome to my portfolio</h1>
+    </section>
+    <section id="projects">
+      <div class="project-tile" id="tribute-page">
+        <h2>Tribute page</h2>
+        <a href="https://elated-hoover-8f1955.netlify.app/" target="_blank"
+          ><img
+            src="/img/tribute-TN.jpg"
+            alt="thumbnail for the tribute to Neil Armstrong page"
+        /></a>
+      </div>
+      <div class="project-tile" id="survey-page">
+        <h2>Survey page</h2>
+        <a href="https://elastic-leavitt-d4cabe.netlify.app/" target="_blank"
+          ><img src="/img/survey-TN.jpg" alt="thumbnail for the survey page"
+        /></a>
+      </div>
+      <div class="project-tile" id="landing-page">
+        <h2>Landing page</h2>
+        <a href="https://sad-wiles-4ab2ae.netlify.app/" target="_blank"
+          ><img src="/img/landing-TN.jpg" alt="thumbnail for the landing page"
+        /></a>
+      </div>
+      <div class="project-tile" id="documentation-page">
+        <h2>Javascript Technical Documentation</h2>
+        <a href="https://eloquent-newton-44e1b7.netlify.app/" target="_blank"
+          ><img
+            src="/img/documentation-TN.jpg"
+            alt="Thumbnail for the technical documentation page"
+        /></a>
+      </div>
+    </section>
+    <section id="profile"></section>
+    <footer>
+      <h3>CodeTinkering&copy 2021</h3>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
